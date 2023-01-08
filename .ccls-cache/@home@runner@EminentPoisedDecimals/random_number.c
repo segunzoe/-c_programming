@@ -7,6 +7,9 @@ int main() {
 
   int number;
   srand(time(0));
+  number= rand()%100+1;
+  printf("The number is %d",number);
+  return 0;
   
   
 }
